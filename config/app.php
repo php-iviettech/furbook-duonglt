@@ -164,18 +164,18 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        /*
+                /*
          * Package Service Providers...
          */
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Furbook\Providers\AppServiceProvider::class,
+        Furbook\Providers\AuthServiceProvider::class,
+        // Furbook\Providers\BroadcastServiceProvider::class,
+        Furbook\Providers\EventServiceProvider::class,
+        Furbook\Providers\RouteServiceProvider::class,
 
     ],
 
